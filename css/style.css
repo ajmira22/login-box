@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url(../img/R\ \(1\).jpeg);
+    background-size: cover;
+}
+h2{
+    color: orangered;
+    text-align: center;
+}
+.form{
+    width: 395px;
+    height: 350px;
+    background-color: transparent;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    border-radius: 10px;
+    padding: 15px;
+    border: 2px solid black;
+    box-shadow: 4px 5px 23px 0px;
+
+}
+
+.input-container {
+  display: flex;
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.icon {
+  padding: 10px;
+  background: dodgerblue;
+  color: white;
+  min-width: 50px;
+  text-align: center;
+}
+
+.input-field {
+  width: 100%;
+  padding: 10px;
+  outline: none;
+}
+
+.input-field:focus {
+  border: 2px solid dodgerblue;
+}
+
+.btn {
+  background-color: dodgerblue;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+.btn1{
+    text-align: center;
+    margin-bottom: 5px;
+}
+.btn1 a{
+    text-decoration: none;
+    color: dodgerblue;
+    font-size: 15px;
+}
+
+hr{
+    border: 1px solid #e5e7e9;
+    margin-bottom: 45px;
+}
+.btn:hover {
+  opacity: 1;
+}
